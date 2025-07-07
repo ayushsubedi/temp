@@ -273,9 +273,6 @@ rides_per_day = st.sidebar.number_input("Average Rides per Day per Driver", min_
 working_days = st.sidebar.number_input("Working Days per Month", min_value=1, value=26, step=1)
 utilization_rate = st.sidebar.slider("Utilization Rate (%)", min_value=10, max_value=100, value=100, step=5)
 
-# Driver Salary
-st.sidebar.subheader("💰 Driver Compensation")
-driver_salary = st.sidebar.number_input("Monthly Salary per Driver (₹)", min_value=0.0, value=26000.0, step=1000.0)
 
 # Aggregator Model Inputs
 st.sidebar.subheader("🧑‍💼 Aggregator Model")
@@ -284,6 +281,7 @@ agg_driver_acquisition_cost = st.sidebar.number_input("Aggregator Driver Acquisi
 
 # Fleet Model Inputs
 st.sidebar.subheader("🚗 Fleet Model")
+driver_salary = st.sidebar.number_input("Monthly Salary per Driver (₹)", min_value=0.0, value=26000.0, step=1000.0)
 num_fleet_drivers = st.sidebar.number_input("Number of Fleet Drivers", min_value=0, value=10, step=1)
 fleet_driver_acquisition_cost = st.sidebar.number_input("Fleet Driver Acquisition Cost (₹)", min_value=0.0, value=1000.0, step=100.0)
 ev_cost = st.sidebar.number_input("Cost of One EV (₹)", min_value=0.0, value=180000.0, step=5000.0)
