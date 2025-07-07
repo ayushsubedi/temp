@@ -273,9 +273,9 @@ rides_per_day = st.sidebar.number_input("Average Rides per Day per Driver", min_
 working_days = st.sidebar.number_input("Working Days per Month", min_value=1, value=26, step=1)
 utilization_rate = st.sidebar.slider("Utilization Rate (%)", min_value=10, max_value=100, value=100, step=5)
 
-# Driver Salary (applies to all models)
+# Driver Salary
 st.sidebar.subheader("💰 Driver Compensation")
-driver_salary = st.sidebar.number_input("Monthly Salary per Driver (₹)", min_value=0.0, value=25000.0, step=1000.0)
+driver_salary = st.sidebar.number_input("Monthly Salary per Driver (₹)", min_value=0.0, value=26000.0, step=1000.0)
 
 # Aggregator Model Inputs
 st.sidebar.subheader("🧑‍💼 Aggregator Model")
