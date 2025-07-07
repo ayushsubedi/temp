@@ -297,8 +297,8 @@ tax_rate = st.sidebar.slider("Tax Rate (%)", min_value=0.0, max_value=40.0, valu
 
 # Fixed & Overhead Costs
 st.sidebar.subheader("🏢 Fixed & Overhead Costs")
-fixed_costs = st.sidebar.number_input("Monthly Fixed Costs (₹)", min_value=0.0, value=75000.0, step=1000.0)
-agg_ops_salary = st.sidebar.number_input("Monthly Ops Team Salary (₹)", min_value=0.0, value=125000.0, step=1000.0)
+fixed_costs = st.sidebar.number_input("Monthly Fixed Costs (₹)", min_value=0.0, value=50000.0, step=1000.0)
+agg_ops_salary = st.sidebar.number_input("Monthly Ops Team Salary (₹)", min_value=0.0, value=75000.0, step=1000.0)
 
 # Prepare parameters dictionary
 params = {
