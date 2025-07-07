@@ -292,7 +292,7 @@ ev_fuel_cost = st.sidebar.number_input("Monthly Fuel/Mileage Cost per EV (₹)",
 
 # Common Parameters
 st.sidebar.subheader("📊 Common Parameters")
-driver_churn_rate = st.sidebar.slider("Driver Churn Rate (% per month)", min_value=0.0, max_value=50.0, value=20.0, step=0.5)
+driver_churn_rate = st.sidebar.slider("Driver Churn Rate (% per month)", min_value=0.0, max_value=50.0, value=10.0, step=0.5)
 tax_rate = st.sidebar.slider("Tax Rate (%)", min_value=0.0, max_value=40.0, value=0.0, step=1.0)
 
 # Fixed & Overhead Costs
