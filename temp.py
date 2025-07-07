@@ -288,7 +288,7 @@ num_fleet_drivers = st.sidebar.number_input("Number of Fleet Drivers", min_value
 fleet_driver_acquisition_cost = st.sidebar.number_input("Fleet Driver Acquisition Cost (₹)", min_value=0.0, value=5000.0, step=100.0)
 ev_cost = st.sidebar.number_input("Cost of One EV (₹)", min_value=0.0, value=180000.0, step=5000.0)
 ev_maintenance = st.sidebar.number_input("Monthly EV Maintenance/Insurance Cost (₹)", min_value=0.0, value=1500.0, step=100.0)
-ev_fuel_cost = st.sidebar.number_input("Monthly Fuel/Mileage Cost per EV (₹)", min_value=0.0, value=3000.0, step=100.0)
+ev_fuel_cost = st.sidebar.number_input("Monthly Fuel/Mileage Cost per EV (₹)", min_value=0.0, value=4000.0, step=100.0)
 
 # Common Parameters
 st.sidebar.subheader("📊 Common Parameters")
