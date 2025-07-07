@@ -280,12 +280,12 @@ driver_salary = st.sidebar.number_input("Monthly Salary per Driver (₹)", min_v
 # Aggregator Model Inputs
 st.sidebar.subheader("🧑‍💼 Aggregator Model")
 num_agg_drivers = st.sidebar.number_input("Number of Aggregator Drivers", min_value=0, value=100, step=1)
-agg_driver_acquisition_cost = st.sidebar.number_input("Aggregator Driver Acquisition Cost (₹)", min_value=0.0, value=2000.0, step=100.0)
+agg_driver_acquisition_cost = st.sidebar.number_input("Aggregator Driver Acquisition Cost (₹)", min_value=0.0, value=500.0, step=100.0)
 
 # Fleet Model Inputs
 st.sidebar.subheader("🚗 Fleet Model")
 num_fleet_drivers = st.sidebar.number_input("Number of Fleet Drivers", min_value=0, value=10, step=1)
-fleet_driver_acquisition_cost = st.sidebar.number_input("Fleet Driver Acquisition Cost (₹)", min_value=0.0, value=5000.0, step=100.0)
+fleet_driver_acquisition_cost = st.sidebar.number_input("Fleet Driver Acquisition Cost (₹)", min_value=0.0, value=1000.0, step=100.0)
 ev_cost = st.sidebar.number_input("Cost of One EV (₹)", min_value=0.0, value=180000.0, step=5000.0)
 ev_maintenance = st.sidebar.number_input("Monthly EV Maintenance/Insurance Cost (₹)", min_value=0.0, value=1500.0, step=100.0)
 ev_fuel_cost = st.sidebar.number_input("Monthly Fuel/Mileage Cost per EV (₹)", min_value=0.0, value=4000.0, step=100.0)
