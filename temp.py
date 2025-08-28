@@ -290,13 +290,13 @@ ev_fuel_cost = st.sidebar.number_input("Monthly Fuel/Mileage Cost per EV (₹)",
 
 # Common Parameters
 st.sidebar.subheader("📊 Common Parameters")
-driver_churn_rate = st.sidebar.slider("Driver Churn Rate (% per month)", min_value=0.0, max_value=50.0, value=10.0, step=0.5)
+driver_churn_rate = st.sidebar.slider("Driver Churn Rate (% per month)", min_value=0.0, max_value=50.0, value=20.0, step=0.5)
 tax_rate = st.sidebar.slider("Tax Rate (%)", min_value=0.0, max_value=40.0, value=0.0, step=1.0)
 
 # Fixed & Overhead Costs
 st.sidebar.subheader("🏢 Fixed & Overhead Costs")
-fixed_costs = st.sidebar.number_input("Monthly Fixed Costs (₹)", min_value=0.0, value=50000.0, step=1000.0)
-agg_ops_salary = st.sidebar.number_input("Monthly Ops Team Salary (₹)", min_value=0.0, value=75000.0, step=1000.0)
+fixed_costs = st.sidebar.number_input("Monthly Fixed Costs (₹)", min_value=0.0, value=75000.0, step=1000.0)
+agg_ops_salary = st.sidebar.number_input("Monthly Ops Team Salary (₹)", min_value=0.0, value=100000.0, step=1000.0)
 
 # Prepare parameters dictionary
 params = {
