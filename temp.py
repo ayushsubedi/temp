@@ -268,7 +268,7 @@ st.sidebar.header("🎛️ Configuration")
 
 # Revenue & Driver Activity
 st.sidebar.subheader("📈 Revenue & Driver Activity")
-avg_ticket_size = st.sidebar.number_input("Average Ticket Size (₹)", min_value=1.0, value=80.0, step=1.0)
+avg_ticket_size = st.sidebar.number_input("Average Ticket Size (₹)", min_value=1.0, value=110.0, step=1.0)
 rides_per_day = st.sidebar.number_input("Average Rides per Day per Driver", min_value=1.0, value=20.0, step=1.0)
 working_days = st.sidebar.number_input("Working Days per Month", min_value=1, value=26, step=1)
 utilization_rate = st.sidebar.slider("Utilization Rate (%)", min_value=10, max_value=100, value=100, step=5)
@@ -276,7 +276,7 @@ utilization_rate = st.sidebar.slider("Utilization Rate (%)", min_value=10, max_v
 
 # Aggregator Model Inputs
 st.sidebar.subheader("🧑‍💼 Aggregator Model")
-num_agg_drivers = st.sidebar.number_input("Number of Aggregator Drivers", min_value=0, value=100, step=1)
+num_agg_drivers = st.sidebar.number_input("Number of Aggregator Drivers", min_value=0, value=250, step=1)
 agg_driver_acquisition_cost = st.sidebar.number_input("Aggregator Driver Acquisition Cost (₹)", min_value=0.0, value=500.0, step=100.0)
 
 # Fleet Model Inputs
